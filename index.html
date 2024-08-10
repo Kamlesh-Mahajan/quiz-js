@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz App!</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="quiz">
+        <div class="heading">
+          <p class="title">notNotion</p>
+          <p class="subtitle">Daily Quiz To Test Your Javascript</p>
+        </div>
+        <div class="result hide">
+          <p></p>
+          <p class="reload">
+            <button onclick="document.location.reload(true)">Try Again?</button>
+          </p>
+        </div>
+
+        <form action="" class="quiz-form">
+          <div class="question">
+            <p>1. Which type of JavaScript language is ___</p>
+            <div class="option">
+              <input type="radio" name="q1" value="A" checked />
+              <label for="">Object-Oriented</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q1" value="B" />
+              <label for="">Object-Based</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q1" value="C" />
+              <label for="">Assembly-language</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q1" value="D" />
+              <label for="">High-level</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              2. Which keyword is used for declaring a variable in JavaScript
+              that can be reassigned?
+            </p>
+            <div class="option">
+              <input type="radio" name="q2" value="A" checked />
+              <label for="">const</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q2" value="B" />
+              <label for="">var</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q2" value="C" />
+              <label for="">let</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q2" value="D" />
+              <label for="">static</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              3. Which data type in JavaScript is used to represent logical
+              values?
+            </p>
+            <div class="option">
+              <input type="radio" name="q3" value="A" checked />
+              <label for="">String</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q3" value="B" />
+              <label for="">Boolean</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q3" value="C" />
+              <label for="">Number</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q3" value="D" />
+              <label for="">Undefined</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              4. What will be the output of the following code?
+              console.log(typeof null);
+            </p>
+            <div class="option">
+              <input type="radio" name="q4" value="A" checked />
+              <label for="">'object'</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q4" value="B" />
+              <label for="">'null'</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q4" value="C" />
+              <label for="">'undefined'</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q4" value="D" />
+              <label for="">'number'</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              5. Which operator is used to check both the value and the type of
+              a variable in JavaScript?
+            </p>
+            <div class="option">
+              <input type="radio" name="q5" value="A" checked />
+              <label for="">==</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q5" value="B" />
+              <label for="">===</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q5" value="C" />
+              <label for="">!=</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q5" value="D" />
+              <label for="">!==</label>
+            </div>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
